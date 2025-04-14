@@ -4,7 +4,9 @@ const observador = new IntersectionObserver((entradas) => {
       entrada.target.classList.add('animar-visivel');
     }
   });
+}, {
+  threshold: 0.3,
 });
 
-const elemento = document.querySelector('.animar');
-observador.observe(elemento);
+const elementos = document.querySelectorAll('.animar');
+elementos.forEach((elemento) => observador.observe(elemento));

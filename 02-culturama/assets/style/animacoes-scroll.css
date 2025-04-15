@@ -6,6 +6,16 @@
   animation: elementosDireita 1s;
 }
 
+/* 4 primeiros */
+.categorias__item.animar-final:nth-child(-n+4) {
+  animation: elementosEsquerda 1s;
+}
+
+/* 5º em diante */
+.categorias__item.animar-final:nth-child(n+5) {
+  animation: elementosDireita 1s;
+}
+
 @keyframes elementosEsquerda {
   0% {
     transform: translateX(-200px);

@@ -19,6 +19,7 @@
 body {
     font-family: var(--fonte-primaria);
     height: 100vh;
+    overflow-x: hidden;
 }
 
 /*Estilos compartilhados*/

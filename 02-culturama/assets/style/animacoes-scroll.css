@@ -1,0 +1,17 @@
+.banner .esquerda.animar-final {
+  animation: elementosEsquerda 1s;
+}
+
+@keyframes elementosEsquerda {
+  0% {
+    transform: translateX(-200px);
+  }
+
+  80% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -16,6 +16,16 @@
   animation: elementosDireita 1s;
 }
 
+.eventos__item.animar-final:nth-child(4n+1),
+.eventos__item.animar-final:nth-child(4n+2) {
+  animation: elementosEsquerda 1s;
+}
+
+.eventos__item.animar-final:nth-child(4n+3),
+.eventos__item.animar-final:nth-child(4n+4) {
+  animation: elementosDireita 1s;
+}
+
 @keyframes elementosEsquerda {
   0% {
     transform: translateX(-200px);
